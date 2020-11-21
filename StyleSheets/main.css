@@ -39,14 +39,18 @@ body{
 *{
     box-sizing: border-box;
 }
-a,p,h2,h1{
+p,h2{
     font-family: 'Kelly Slab', cursive;
     color: #ff5816;
+    font-size: 70px;
+    margin-left: 40px;
 }
 h1{
+    font-family: 'Kelly Slab', cursive;
+    color: #ff5816;
     margin-top: 0px;
     margin-right: 0px;
-    font-size: 70px;
+    font-size: 90px;
     width: 30%;
     text-indent: 20px; /* Отступ первой строки в пикселах */
     margin-bottom: 5px;
@@ -65,9 +69,12 @@ ul {
     padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
     margin-bottom: 0;
 }
-a{
+#zaprosi{
     text-decoration: none;
     color: #ff5816;
+    font-size: 70px;
+    margin-left: 40px;
+    font-family: 'Kelly Slab', cursive;
 }
 *{
     margin: 0px;
@@ -84,4 +91,10 @@ li {
     display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
     padding: 3px; /* Поля вокруг текста */
+}
+#bestide,#books,#bestyp{
+    font-family: 'Kelly Slab', cursive;
+    color: #ff5816;
+    font-size: 70px;
+    margin-left: 40px;
 }
